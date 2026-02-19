@@ -40,7 +40,6 @@ func open() -> void:
 
 	if possible_items.is_empty():
 		return
-
 	for current_index in range(randi_range(1, 3)):
 		_spawn_random_item()
 
