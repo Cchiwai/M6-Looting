@@ -304,7 +304,7 @@ flip_h = true
 position = Vector2(672, 128)
 
 [node name="Torch2" parent="Background" instance=ExtResource("6_fokey")]
-position = Vector2(480, 128)
+position = Vector2(31, 419)
 
 [node name="Camera2D" type="Camera2D" parent="Background"]
 position = Vector2(576, 235)
@@ -331,3 +331,6 @@ position = Vector2(740, 359)
 
 [node name="Chest3" parent="." instance=ExtResource("7_jj8kc")]
 position = Vector2(577, 202)
+
+[node name="Torch" parent="." instance=ExtResource("6_fokey")]
+position = Vector2(475, 122)

@@ -1,10 +1,8 @@
-# Script for pickable items. We don't use inheritance here, just composition: an item is any Area2D scene with a child sprite and this script attached. See gem.tscn and health_pack.tscn.
 extends Area2D
 
 
 func _ready() -> void:
 	play_floating_animation()
-
 
 func _input_event(viewport: Viewport, event: InputEvent, shape_idx: int) -> void:
 	var event_is_mouse_click: bool = (
